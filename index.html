@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Social Media Website</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <div id="loading-screen">
+
+    <div class="loading-spinner"></div>
+
+    <p>Loading...</p>
+
+  </div>
+
+  <header>
+
+    <h1>Social Media Website</h1>
+
+  </header>
+
+  <main>
+
+    <section id="post-form">
+
+      <input type="text" id="username" placeholder="Your Username">
+
+      <input type="file" id="profile-pic" accept="image/*">
+
+      <textarea id="post-text" placeholder="Write your post here..."></textarea>
+
+      <button onclick="submitPost()">Post</button>
+
+    </section>
+
+    <section id="posts">
+
+      <!-- Posts will be dynamically added here -->
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+  </html>
